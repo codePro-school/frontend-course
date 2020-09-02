@@ -1,0 +1,62 @@
+.content {
+    /* コンテンツの幅を決める */
+    width: 100%;
+}
+
+.image_section {
+    /* イメージセクションの幅と高さを決める */
+    width: 100%;
+    height: 600pt;
+    /* ポジションを使うことにより画像の真ん中に文字を配置する */
+    position: relative;
+    /* 内にある要素を左右中央寄せにする */
+    text-align: center;
+}
+
+.image_section .image {
+    /* イメージの幅と高さを決める。100%にすることにより親要素に依存することができるs */
+    width: 100%;
+    height: 100%;
+}
+
+.image_section .text {
+    /* 文字を画像の上に配置する */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* 文字の色を変更する */
+    color: white;
+    /* 文字のサイズを変更する */
+    font-size: 30pt;
+    /* 文字を太くする */
+    font-weight: bold;
+    /* 余計な幅を消す */
+    margin: 0;
+}
+
+.text_section {
+    /* テキストセクションの幅を決める */
+    width: 100%;
+    /* 背景を変更する */
+    background-color: black;
+    /* 上下に余白をpaddingを入れる */
+    padding-top: 200pt;
+    padding-bottom: 200pt;
+    /* 内にある要素を左右中央寄せにする */
+    text-align: center;
+}
+
+.text_section h2 {
+    /* 文字のカラーを変更する */
+    color: white;
+}
+
+.text_section p {
+    /* 文字のカラーを変更する */
+    color: white;
+    /* 文字をサイズを変える */
+    font-size: 14pt;
+}
