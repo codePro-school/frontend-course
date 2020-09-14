@@ -1,0 +1,54 @@
+header {
+    /* h1とnavを横並びにする */
+    display: flex;
+    /* ヘッダーの幅を決める */
+    width: 100%;
+    /* ヘッダーの高さを決める */
+    height: 80pt;
+}
+
+header a {
+    /* リンクのアンダーバーを削除 */
+    text-decoration: none;
+}
+
+header h1 {
+    /* ヘッダータイトルを縦に中央寄せにする */
+    align-self: center;
+    /* ヘッダータイトルのサイズを変更する */
+    font-size: 24pt;
+    /* 横に隙間をあける */
+    margin-left: 40pt;
+}
+
+header .head_title {
+    /* ヘッダータイトルの色を変更する */
+    color: black;
+}
+
+header h1 a span {
+    /* ヘッダータイトルの一部の色を変更する */
+    color: #EFC1FF;
+}
+
+header nav {
+    /* ナビゲーションメニュー内の要素を縦に中央寄せにする */
+    align-self: center;
+}
+
+header nav ul {
+    /* ul内のliを横並びにする */
+    display: flex;
+}
+
+header nav ul li {
+    /* メニュー間の距離を開ける */
+    padding-left: 20pt;
+    /* ・を消す */
+    list-style-type: none;
+}
+
+header .menu_list {
+    /* メニューの色を変更する */
+    color: #282828;
+}
